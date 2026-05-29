@@ -17,13 +17,56 @@ The Bayesian Network created in this assignment performs inferencing using Varia
 
 The program also displays the nodes and edges of the network to show the problem representation clearly.
 
+---
+
 ### Some commonly used tools for Bayesian Networks are:
 
-* pgmpy
-* GeNIe
-* Netica
-* Bayes Server
-* bnlearn
+* pgmpy - is a Python library used for creating Bayesian Networks, defining probability tables, and performing inference operations.
+
+* GeNIe - is a graphical tool used for designing and visualizing Bayesian Networks and decision networks.
+
+* Netica - is a software tool used for probabilistic reasoning and Bayesian Network modelling.
+
+* Bayes Server - is a platform used for building and analyzing Bayesian Network models in real-world applications.
+
+* bnlearn - is an R package used for learning Bayesian Network structures and performing probabilistic analysis.
+
 
 These tools are used for modelling, probability representation, and inferencing in Bayesian Network applications.
 
+---
+
+### Sample Output
+
+Bayesian Network model created successfully.
+
+Nodes in the network:
+['Flu', 'Fever', 'Cough', 'Covid', 'BreathingProblem']
+
+Edges in the network:
+[('Flu', 'Fever'), ('Flu', 'Cough'), ('Covid', 'Fever'),
+ ('Covid', 'Cough'), ('Covid', 'BreathingProblem')]
+
+Probability of Flu given Fever and Cough
+No : 0.2369
+Yes: 0.7631
+
+Probability of Covid given Fever, Cough and Breathing Problem
+No : 0.1726
+Yes: 0.8274
+
+Probability of Covid given Breathing Problem
+No : 0.4474
+Yes: 0.5526
+
+Probability of Flu given Fever
+No : 0.2975
+Yes: 0.7025
+
+Probability of Covid given Fever
+No : 0.668
+Yes: 0.332
+
+Probability of Cough given Covid
+No : 0.29
+Yes: 0.71
