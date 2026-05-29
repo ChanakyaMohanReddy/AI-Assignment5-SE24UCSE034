@@ -1,4 +1,4 @@
-# simple knowledge graph demo
+# basic knowledge graph implementation
 
 knowledge_graph = {
     "Delhi": {
