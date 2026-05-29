@@ -8,7 +8,7 @@ The system generates travel recommendations based on user preferences and budget
 
 ---
 
-# Features of the Travel Planner
+## Features of the Travel Planner
 
 The AI Travel Planner includes the following features:
 
@@ -23,7 +23,7 @@ The AI Travel Planner includes the following features:
 
 ---
 
-# Knowledge Bases Used
+## Knowledge Bases Used
 
 The planner reuses different knowledge bases stored in the program.
 
@@ -89,7 +89,7 @@ Transport types used:
 
 ---
 
-# Working of the System
+## Working of the System
 
 The user enters:
 
@@ -112,7 +112,7 @@ The planner then:
 
 ---
 
-# Sample Input
+## Sample Input
 
 ```text
 Destination: Hyderabad
@@ -126,7 +126,7 @@ Transport Type: public
 
 ---
 
-# Sample Output
+## Sample Output
 
 ```text
 Generated Travel Plan
@@ -154,14 +154,14 @@ The plan is within the given budget.
 
 ---
 
-# Observation
+## Observation
 The planner generates travel plans based on user preferences and budget using different knowledge bases. It also estimates the trip cost and checks whether the plan matches the user budget.
 
 The system can be expanded further by adding more destinations, hotels, restaurants, and real-time APIs.
 
 ---
 
-# Conclusion
+## Conclusion
 
 The AI based Travel Planner was implemented successfully using existing knowledge bases for tourist places, food recommendations, wine/drink recommendations, hotel cost, and transport cost.
 
