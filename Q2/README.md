@@ -1,6 +1,6 @@
-# Assignment 5 - Q2- AI Based Travel Planner
+# Assignment 5 - Q2 - AI Based Travel Planner
 
-## Objective
+## Aim
 
 The objective of this assignment is to design an AI based Travel Planner that reuses existing knowledge bases in the travel domain such as tourist places, food recommendations, wine/drink recommendations, personalized travel planning, and cost assessment.
 
@@ -155,8 +155,7 @@ The plan is within the given budget.
 ---
 
 # Observation
-
-The planner successfully generates personalized travel plans using different knowledge bases. It also estimates the trip cost and checks whether the plan matches the user budget.
+The planner generates travel plans based on user preferences and budget using different knowledge bases. It also estimates the trip cost and checks whether the plan matches the user budget.
 
 The system can be expanded further by adding more destinations, hotels, restaurants, and real-time APIs.
 
