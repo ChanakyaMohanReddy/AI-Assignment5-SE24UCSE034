@@ -190,4 +190,3 @@ MCTS Move: 2
 
 All four required algorithms were implemented successfully using Tic-Tac-Toe.
 
-The test cases show that the algorithms are working correctly and producing valid game decisions.
