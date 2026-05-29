@@ -9,25 +9,24 @@ The objective of this assignment is to implement and test the following game sea
 * Heuristic Alpha-Beta Search
 * Monte-Carlo Tree Search (MCTS)
 
-The implementation is done using the Tic-Tac-Toe game.
+The algorithms are implemented using the Tic-Tac-Toe game.
 
 ---
 
-# Game Used: Tic-Tac-Toe
+## Game Used: Tic-Tac-Toe
 
-Tic-Tac-Toe is a two-player zero-sum game.
+It is a two-player zero-sum game.
 
 * Player X → Maximizing player
 * Player O → Minimizing player
 
 ### Utility Values
 
-| Result | Value |
-| ------ | ----- |
-| X Wins | +1    |
-| O Wins | -1    |
-| Draw   | 0     |
+The utility values used in the program are:
 
+* X wins = +1
+* O wins = -1
+* Draw = 0
 ---
 
 # Algorithms Implemented
@@ -49,9 +48,6 @@ This uses depth-limited Alpha-Beta search. When the depth limit is reached, a he
 MCTS uses random simulations to estimate the best move. Since MCTS uses randomness, its output may vary slightly between runs.
 
 ---
-
-
-# Test Cases
 
 ## Test Case 1
 
@@ -109,7 +105,7 @@ Heuristic Alpha-Beta Move: 7 Heuristic Value: 10
 MCTS Move: may vary
 ```
 
-### Note
+Note-
 
 MCTS output can change because it uses random simulations.
 
@@ -177,7 +173,7 @@ MCTS Move: 2
 
 ---
 
-# Observation
+## Observation
 
 * Minimax and Alpha-Beta produce the same optimal moves.
 * Alpha-Beta reduces unnecessary search using pruning.
@@ -186,7 +182,7 @@ MCTS Move: 2
 
 ---
 
-# Conclusion
+## Conclusion
 
 All four required algorithms were implemented successfully using Tic-Tac-Toe.
 
