@@ -1,4 +1,4 @@
-# bayesian network demo for medical diagnosis
+# Bayesian network example for medical diagnosis
 
 try:
     from pgmpy.models import DiscreteBayesianNetwork as BayesianNetwork
