@@ -49,3 +49,42 @@ Some commonly used tools for building Knowledge Graphs are Neo4j, Protégé, Gra
 * SPARQL is a query language used for querying RDF data.
 * NetworkX is a Python library used for graph creation and analysis.
 
+---
+
+### Sample Output
+
+Knowledge Graph Entities:
+
+- Delhi
+- Kerala
+- India Gate
+- Red Fort
+- Munnar
+
+```text
+Knowledge Graph Relationships:
+
+Delhi -> has_places -> India Gate
+Delhi -> has_places -> Red Fort
+Delhi -> has_places -> Qutub Minar
+Delhi -> has_food -> Chole Bhature
+Delhi -> has_food -> Paratha
+
+Kerala -> has_places -> Munnar
+Kerala -> has_places -> Alleppey
+Kerala -> has_places -> Wayanad
+Kerala -> has_food -> Appam
+Kerala -> has_food -> Kerala Sadya
+```
+
+Tourist Places in Delhi:
+- India Gate
+- Red Fort
+- Qutub Minar
+
+Food Recommendations in Delhi:
+- Chole Bhature
+- Paratha
+
+Category of India Gate:
+War Memorial
