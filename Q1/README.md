@@ -1,4 +1,4 @@
-   # Assignment 5 - Task 1 - Game Search Algorithms
+   # Assignment 5 - Q1 - Game Search Algorithms
 
 ## Objective
 
