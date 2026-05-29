@@ -1,4 +1,7 @@
-### Assignment 5 - Q4 - Bayesian Networks
+## Assignment 5 - Q4 - Bayesian Networks
+
+---
+
 A Bayesian Network is a probabilistic graphical model used to represent relationships between different variables using nodes and directed edges. It helps in modelling uncertainty and performing probabilistic reasoning based on given evidence.
 
 This program demonstrates the basic concepts of Bayesian Networks using a medical diagnosis example. In this implementation, diseases such as Flu and Covid are connected with symptoms like Fever, Cough, and Breathing Problem. The relationships between these variables are represented using a Bayesian Network structure.
